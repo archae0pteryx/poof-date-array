@@ -10,7 +10,7 @@ module.exports = (start, end, direction = 'forward') => {
   const dateArr = []
   const l = e.diff(s, 'day')
   for (let i = 0; i <= l; i++) {
-    dateArr.push(s.add(i, 'day').format('YYYY-MM-DD'))
+    dateArr.push(s.add(i, 'day').format('YYYY_MM_DD'))
   }
   switch (direction) {
     case 'backward':
