@@ -1,11 +1,10 @@
 {
   "name": "poof-date-array",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development node ./run.js",
-    "start": "NODE_ENV=production node ./run.js",
     "debug": "NODE_ENV=development node --inspect-brk ./run.js"
   },
   "keywords": [],

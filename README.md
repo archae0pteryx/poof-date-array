@@ -10,7 +10,6 @@ const arr = poof(start, end, direction) // default direction is forward
 
 development:
 ```js
-yarn start
 yarn dev
 yarn debug
 ```
