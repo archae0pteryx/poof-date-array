@@ -1,0 +1,20 @@
+{
+  "name": "touchpoint-time-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node ./run.js",
+    "start": "NODE_ENV=production node ./run.js",
+    "debug": "NODE_ENV=development node --inspect-brk ./run.js"
+  },
+  "keywords": [],
+  "author": "Ryan Lewis <ryan@gpnerds.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.0"
+  }
+}
