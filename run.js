@@ -1,5 +1,5 @@
 const dateArr = require('./index')
 
-const x = dateArr('2019-01-11', '2019-02-11')
+const x = dateArr('2019_01_11', '2019_02_11')
 
 console.info(x)
